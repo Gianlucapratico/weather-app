@@ -36,3 +36,37 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  background-image: url(https://i.pinimg.com/originals/9b/d8/5e/9bd85eaafc975e6fe1a8edf6ab88166a.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+button[type="submit"] {
+  background-color: #0a5aee59;
+  border-color: #60a3bc;
+  color: #fff;
+  font-size: 18px;
+  padding: 16px 28px;
+  border-radius: 10px;
+}
+
+button[type="submit"]:hover {
+  background-color: #4c8da7;
+  border-color: #4f5658;
+  color: #fff;
+  transition: all 0.3s ease;
+}
+
+.table td,
+.table th {
+  color: rgba(10, 45, 78, 0.842);
+  border: none;
+  pointer-events: none;
+}
+
+h3 {
+  color: #4341db;
+  pointer-events: none;
+}
